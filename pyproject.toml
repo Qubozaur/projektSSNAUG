@@ -1,0 +1,22 @@
+[project]
+name = "projektssnaug"
+version = "0.1.0"
+description = "Projekt SSNAUG (PB, dr Krętowska) - klasyfikacja obrazów (CIFAR-100), klasyfikacja danych tabelarycznych, regresja (California housing)"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "tensorflow>=2.18,<2.20",
+    "scikit-learn>=1.5",
+    "pandas>=2.2",
+    "numpy>=1.26,<2.2",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "ipykernel>=6.29",
+    "jupyter>=1.1",
+    "ucimlrepo>=0.0.7",
+    "tensorboard>=2.18",
+    "keras>=3.14.1",
+]
+
+[dependency-groups]
+dev = []

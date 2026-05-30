@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtualenv / uv
+.venv/
+.uv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dane
+dane/
+data/
+*.csv
+*.parquet
+
+# Logi treningu
+logs/
+tensorboard/
+
+# Modele
+modele/
+*.h5
+*.keras
+*.weights
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
